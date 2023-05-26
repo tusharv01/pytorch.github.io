@@ -516,6 +516,9 @@ The most likely reason for performance hits is too many graph breaks. For instan
 14. **My previously-running code is crashing with 2.0’s Compiled Mode! How do I debug it?**  
 Here are some techniques to triage where your code might be failing, and printing helpful logs: [https://pytorch.org/docs/stable/dynamo/faq.html#why-is-my-code-crashing](https://pytorch.org/docs/stable/dynamo/faq.html#why-is-my-code-crashing).  
 
+15. On installing Pytorch LTS(1.8.2) for Linux and cuda11.1 using pip. Please check the python version you are using, it must be <=3.8:
+Pytorch LTS version 1.8.2 is only supported for Python <= 3.8
+
 ## Ask the Engineers: 2.0 Live Q&A Series
 
 We will be hosting a series of live Q&A sessions for the community to have deeper questions and dialogue with the experts. Please check back to see the full calendar of topics throughout the year. If you are unable to attend: 1) They will be recorded for future viewing and 2) You can attend our Dev Infra Office Hours every Friday at 10 AM PST @ [https://github.com/pytorch/pytorch/wiki/Dev-Infra-Office-Hours](https://github.com/pytorch/pytorch/wiki/Dev-Infra-Office-Hours).
